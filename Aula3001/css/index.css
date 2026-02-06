@@ -1,0 +1,53 @@
+:root{
+    --cor-fundo-pagina: pink;
+    --cor-fundo-cartao: rgb(254, 161, 175);
+    --cor-texto-principal: rgb(25, 23, 15);
+    --cor-texto-suave: rgb(97, 66, 35);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', 'Arial';
+    font-size:x-large;
+    color: var(--cor-texto-principal);
+    background: var(--cor-fundo-pagina);   
+}
+
+.container-pagina{
+    width: min(1100px,90%);
+    margin: 0 auto;
+}
+
+.cabecalho-principal{
+    min-height:70vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg,rgb(219, 136, 150), rgb(234, 221, 223));
+    padding: clamp(2rem, 5vw, 5rem);
+}
+
+.formulario-incricao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.formulario-inscricao__campo-email{
+    background: none;
+    border-radius: 1.5rem;
+    text-align: left;
+    width: 40%;
+    height: 50px;
+}
+
+.formulario-inscricao__botao{
+    background: rgb(225, 0, 255);
+    border-radius: 1.5rem;
+    padding: 15px 67px;
+}
