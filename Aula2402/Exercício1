@@ -1,0 +1,17 @@
+class Livro {
+    autor = 'Rick Riordan';
+    titulo = 'O Ladrão de Raios';
+    ano = 2005;
+    edicao = '1ª edição';
+    editora = 'Intrínseca';
+    genero = 'Fantasia';
+    numeroPaginas = 400;
+    idioma = 'Português';
+
+    mostrar(){
+        console.log(this.autor);//chamada de atributo
+    }
+}
+
+const impressao = new Livro();
+impressao.mostrar();
